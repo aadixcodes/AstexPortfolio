@@ -22,8 +22,8 @@ export function Navbar({ onPageChange, currentPage }: NavbarProps) {
           className="flex items-center gap-2 cursor-pointer" 
           onClick={() => handleNavClick('home')}
         >
-          <Code2 className="w-8 h-8 text-[#C1FF72]" />
-          <span className="text-white text-xl font-bold">Astex</span>
+          <img src='/assets/AstexLogo.svg' className="w-9 h-9 text-[#C1FF72]" />
+          <span className="text-white text-4xl font-bold">Astex</span>
         </div>
         
         <button 
