@@ -51,20 +51,7 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Half Circle at Bottom */}
-      <div className="absolute bottom-0 left-0 w-full overflow-hidden">
-        <svg 
-          viewBox="0 0 1440 160" 
-          preserveAspectRatio="none" 
-          className="w-full h-24 md:h-32"
-        >
-          <path 
-            d="M0 160 Q720 0, 1440 160 Z" 
-            fill="#C1FF72" 
-            fillOpacity="0.2"
-          />
-        </svg>
-      </div>
+      
     </section>
   );
 }
